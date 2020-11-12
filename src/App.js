@@ -10,7 +10,7 @@ function App() {
             {/* <Sideb<div className="app_sidebar"></div> */}
             <Sidebar/>
           </div>
-          <div className="col-lg-9 app_main-content">Main </div>
+          <div className="col-lg-9 app_main-content"></div>
         </div>
       </div>
       
