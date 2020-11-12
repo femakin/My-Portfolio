@@ -15,6 +15,10 @@ export default function Sidebar() {
     function gitHub() {
         window.open('https://github.com/femakin?tab=repositories');
       }
+
+    function linkedIn(){
+        window.open('https://www.linkedin.com/in/oluwafemi-tosin-akinyemi-6b028270/')
+    }
   return (
     <div className="sidebar">
       <img src="https://res.cloudinary.com/femakin/image/upload/v1605095076/IMG-20201110-WA0147_mwlzbq.jpg" alt="avatar" className="sidebar_avatar"/>
@@ -35,12 +39,12 @@ export default function Sidebar() {
           
            
        </div>
-       <div className="sidebar_item"><a href="/"><img src={linkedin} alt="github" className="sidebar_icon mr-2" />LinkedIn</a></div>
+       <div className="sidebar_item"><a href="/" onClick={linkedIn}><img src={linkedin} alt="github" className="sidebar_icon mr-2" />LinkedIn</a></div>
        <div className="sidebar_location"> <img src={pin} alt="location" className="sidebar_icon mr-2"/>Ibadan, Nigeria</div>
        <div className="sidebar_item">akinfemi46@gmail.com</div>
        <div className="sidebar_item">07037495325</div>
    </div>
-   <div className="sidebar_item sidebar_email" onClick={handleEmailMe}>Email me</div>
+   <div className="sidebar_item sidebar_email" onClick={handleEmailMe}>Hire me</div>
     </div>
   )
 }

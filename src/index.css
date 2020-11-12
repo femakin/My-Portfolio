@@ -4,6 +4,7 @@
 body{
     background-image: linear-gradient( to right bottom, #B3FFAB, #12FFF7);
     background-attachment: fixed;
+    color: #354538;
 }
 a{
     text-decoration: none;
@@ -16,11 +17,11 @@ a:hover{
     cursor: pointer;
 }
 
-.container{
+.app_container{
     padding-top: 50px;
 }
-.row{
-     height: 90vh;  
+.app_row{
+     height: 86vh;  
     /* width: 100vw; */
 }
 
@@ -133,4 +134,48 @@ color: #000;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* about */
+
+.about{
+    padding: 20px;
+    margin: -35px;
+}
+.about_intro{
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 10px 0;
+}
+.about_container{
+    background-color: #dbdddf;
+    padding: 30px 20px;
+}
+.about_heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: #354358;
+    margin-left: 10px;
+}
+
+.skill-card{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.skill-card_icon{
+    width: 40px;
+    height: 40px;
+}
+
+.skill-card-body{
+    margin-left: 15px;
+}
+.skill_card_content{
+    margin: 0;
+    font-size: 0.9rem;
 }
