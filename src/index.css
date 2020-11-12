@@ -108,3 +108,29 @@ color: #000;
         margin: 30px 0;
     }
 }
+
+/* navbar */
+
+.navbar_items{
+    display: flex;
+}
+.navbar_active{
+    font-size:  2rem;
+    font-weight: 700;
+    color: #354358;
+    border-bottom: 4px solid #00F260;
+}
+
+.navbar_item{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #354358;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.navbar_item:hover{
+    background: -webkit-linear-gradient(#00F260, #0575E5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
