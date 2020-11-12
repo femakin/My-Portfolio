@@ -1,9 +1,19 @@
-import React from 'react';
+import React from "react";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Uff! Finally</h1>
+      <div className="container ">
+        <div className="row">
+          <div className="col-lg-3">
+            {/* <Sideb<div className="app_sidebar"></div> */}
+            <Sidebar/>
+          </div>
+          <div className="col-lg-9 app_main-content">Main </div>
+        </div>
+      </div>
+      
     </div>
   );
 }
