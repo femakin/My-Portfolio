@@ -1,5 +1,7 @@
 import React from 'react'
 import facebook from '../assets/icons/facebook.svg'
+import twitter from '../assets/icons/twitter.svg'
+import reSume from '../assets/icons/reSume.svg'
 import instagram from '../assets/icons/instagram.svg'
 import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
@@ -9,6 +11,9 @@ import resume from '../assets/resume.pdf'
 
 
 export default function Sidebar() {
+    const twiTter = () =>{
+        window.open("https://twitter.com/akinyemi_t")
+    }
     const handleEmailMe = () => {
         window.open("mailto:akinfemi46@gmail.com")
     }
@@ -17,7 +22,7 @@ export default function Sidebar() {
       }
 
     function linkedIn(){
-        window.open('https://www.linkedin.com/in/oluwafemi-tosin-akinyemi-6b028270/')
+        window.open('https://www.linkedin.com/in/Femi-Akinyemi/')
     }
   return (
     <div className="sidebar">
@@ -26,12 +31,12 @@ export default function Sidebar() {
    <div className="sidebar_item sidebar_title">Front-end Developer</div>
    <a href={resume} download="resume.pdf">
        <div className="sidebar_item sidebar_resume">
-           <img src={tie} alt="resume" className="sidebar_icon"/>Download Resume
+           <img src={reSume} alt="resume" className="sidebar_icon"/>Download Resume
        </div>
    </a>
    <div className="sidebar_social-icons my-2">
        <a href="/"><img src={facebook} alt="facebook" className="sidebar_icon mr-3"/></a>
-       <a href="/"><img src={instagram} alt="instagram" className="sidebar_icon"/></a>
+       <a href="/" onClick={twiTter}><img src={twitter} alt="instagram" className="sidebar_icon"/></a>
    </div>
    <div className="sidebar_contact">
        <div className="sidebar_item sidebar_github  ">

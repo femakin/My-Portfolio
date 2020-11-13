@@ -13,13 +13,13 @@ const skills = [
     {
         
         icon: api,
-        title: "API Development",
-        about: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, sit!"
+        title: "Design Implementation",
+        about: "I may not be the person behind Figma or AdobeXD. But I can take any design to the next level with my stylesheet superpowers. "
     },
     {
         icon: algo,
         title: "Competitive Coder.",
-        about: "a daily problem solver in Edabit"
+        about: "A daily problem solver in Edabit"
     },
     {
         icon: api,
