@@ -5,7 +5,19 @@ body{
     background-image: linear-gradient( to right bottom, #B3FFAB, #12FFF7);
     background-attachment: fixed;
     color: #354538;
+    font-family: sans-serif;
 }
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+ background-image: linear-gradient( to right bottom, #B3FFAB, #12FFF7);
+}
+
+
 a{
     text-decoration: none;
     color: #354548
@@ -136,49 +148,7 @@ color: #000;
     -webkit-text-fill-color: transparent;
 }
 
-/* about */
 
-.about{
-    padding: 20px;
-    margin: -35px;
-}
-.about_intro{
-    font-size: 1.1rem;
-    padding: 20px;
-    margin: 10px 0;
-}
-.about_container{
-    background-color: #dbdddf;
-    padding: 30px 20px;
-}
-.about_heading{
-    font-size: 25px;
-    font-weight: 700;
-    color: #354358;
-    margin-left: 10px;
-}
-
-.skill-card{
-    background-color: #fff;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
-}
-
-.skill-card_icon{
-    width: 40px;
-    height: 40px;
-}
-
-.skill-card-body{
-    margin-left: 15px;
-}
-.skill_card_content{
-    margin: 0;
-    font-size: 0.9rem;
-}
 
 /* //Resume */
 .resume{
@@ -186,7 +156,7 @@ color: #000;
 }
 .resume-card_heading, .resume-language_heading{
     margin-left: 10px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #354538;
 }
@@ -226,4 +196,71 @@ color: #000;
     color: #fff;
     font-size: 0.9rem;
 
+}
+
+/* projects */
+
+.project{
+    height: 70vh;
+    padding-top: 30px;
+    overflow-y: auto;
+}
+
+.projectCard_wrapper{
+    margin: 10px 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+}
+
+.projectCard_image{
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+    border: 1px solid  #00F260;
+    transition:transform 0.3s linear;
+}
+
+.projectCard_image:hover{
+    transform: scale(1.05);
+}
+
+
+.projectCard_icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.projectCard_title{
+    margin-top: 12px;
+    font: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects_navbar{
+display: flex;
+margin-bottom: 5px;
+}
+.projects_navbar>div{
+    margin: 0 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.project_navbar-active{
+    color: #00F260
+}
+
+@media(max-width: 600px){
+    .app_main-content{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .navbar_active{
+        font-size: 1.5rem;
+    }
+    .navbar_item{
+        font-size: 1rem;
+    }
 }

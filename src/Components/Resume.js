@@ -1,69 +1,41 @@
 import React from "react";
-import react from "../assets/icons/react.svg";
-import javascript from "../assets/icons/java-script.svg";
-import bootstrap from "../assets/icons/bootstrap.svg";
-import html5 from "../assets/icons/html5.svg";
-import css3 from "../assets/icons/css3.svg";
-import git from "../assets/icons/git.svg";
-import vsc from "../assets/icons/vsc.svg";
-import latex from "../assets/icons/latex.svg";
-import chrome from "../assets/icons/chrome.svg";
+import {motion} from 'framer-motion'
+import {tools, languages} from './data/resume_data'
 
 import Bar from "./Bar";
-const languages = [
-  {
-    icon: javascript,
-    name: "JavaScript",
-    level: "90",
-  },
-  {
-    icon: react,
-    name: "React",
-    level: "90",
-  },
-  {
-    icon: bootstrap,
-    name: "Bootstrap",
-    level: "95",
-  },
-  {
-    icon: html5,
-    name: "HTML5",
-    level: "95",
-  },
-  {
-    icon: css3,
-    name: "CSS3",
-    level: "95",
-  },
-];
 
-const tools = [
-  {
-    icon: git,
-    name: "Git ",
-    level: "85",
-  },
-  {
-    icon: latex,
-    name: "LaTeX",
-    level: "95",
-  },
-  {
-    icon: vsc,
-    name: "Vscode",
-    level: "85",
-  },
-  {
-    icon: chrome,
-    name: "Chrome Dev Tools",
-    level: "80",
-  },
-];
 
 export default function Resume() {
+
+    const project_variants={
+        hidden:{
+            
+            opacity: 0
+                },
+                visible:{
+                    x:0,
+                    opacity: 1,
+                    transition:{
+                        delay:0.2,
+                        duration:0.6,
+                       
+                    }
+                },exit:{
+                    opacity:0,
+                    transition:{
+                        ease: "easeInOut"
+                    }
+                }
+    }
+
+
   return (
-    <div className="container resume">
+    <motion.div className="container resume"
+    variants={project_variants}
+    initial="hidden"
+    animate="visible"
+    exit="exit"
+    >
       <div className="row">
         <div className="col-lg-6 reume-card">
           <h4 className="resume-card_heading">Education</h4>
@@ -155,6 +127,6 @@ export default function Resume() {
 
 
 
-    </div>
+    </motion.div>
   );
 }

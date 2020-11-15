@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
+import {motion} from 'framer-motion'
 
 export default function Navbar() {
   
@@ -15,8 +16,29 @@ else if(currentURL.endsWith('/resume'))
 setActive('Resume')
   }, [active])
   
+  const navbar_variant={
+    hidden:{
+      y: '-20vh',
+      
+    },
+    visible: {
+      y: 0,
+      
+      transition:{
+        delay:0.2,
+        duration:0.7,
+        type: 'spring'
+    }
+    }
+  }
   return (
-    <div className="navbar">
+    <motion.div className="navbar"
+    variants={navbar_variant}
+    initial="hidden"
+animate='visible'    
+    >
+
+
       <div className="navbar_active">
         {active}
       </div>
@@ -27,6 +49,6 @@ setActive('Resume')
        {active !== "Projects" &&  <Link to="/projects"><div className="navbar_item" onClick={()=>setActive('Projects')}>Projects</div></Link>}
       </div>
       
-    </div>
+    </motion.div>
   )
 }
