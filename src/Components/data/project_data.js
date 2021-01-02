@@ -7,6 +7,7 @@
 // import blinking from '../../assets/projects_images/blinking.JPG'
 // import Dev_talks from '../../assets/projects_images/Dev_talks.jpg'
 import resume from '../../assets/projects_images/resume.jpg'
+import indeplot from '../../assets/projects_images/indeplot.jpg'
 
 
 
@@ -16,6 +17,13 @@ const data_projects = [
         image: resume,
         deployed_url: 'https://femiakinyemi.netlify.app/',
         github_url: 'https://github.com/femakin/My-Portfolio/',
+        category: ['react.js']
+    },
+    {
+        name: 'An open-source project for making a react based plotter application for signal analysis. I was assigned to build the Navbar and Footer Components using Reactjs ',
+        image: indeplot,
+        deployed_url: 'https://indeplot.netlify.app/',
+        github_url: 'https://github.com/femakin/indeplot ',
         category: ['react.js']
     },
 

@@ -15,3 +15,4 @@ const bar_width = `${level}%`
     </div>
   )
 }
+
