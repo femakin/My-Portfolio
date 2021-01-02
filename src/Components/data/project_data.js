@@ -8,6 +8,7 @@
 // import Dev_talks from '../../assets/projects_images/Dev_talks.jpg'
 import resume from '../../assets/projects_images/resume.jpg'
 import indeplot from '../../assets/projects_images/indeplot.jpg'
+import responsive_ from '../../assets/projects_images/responsive_.jpg'
 
 
 
@@ -19,6 +20,19 @@ const data_projects = [
         github_url: 'https://github.com/femakin/My-Portfolio/',
         category: ['react.js']
     },
+
+{
+name: "Eight responsive website project from devchallenges.io. All these projects were built using ReactJs and CSS. ",
+image: responsive_,
+deployed_url: 'https://eightwebsite.netlify.app/',
+github_url: 'https://github.com/femakin/Eight-Responsive-Project',
+category: ['react.js']
+
+
+},
+
+
+
     {
         name: 'An open-source project for making a react based plotter application for signal analysis. I was assigned to build the Navbar and Footer Components using Reactjs ',
         image: indeplot,
