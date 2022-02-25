@@ -40,7 +40,7 @@ export default function About() {
         <h6 className="about_intro">
       I describe myself as someone who's persistent, highly Motivated and a fast learner seeking to launch a career building web applications and
 services. Familiar with the development and deployment process for many web-based
-technologies.
+technologies. Yes. i AM.
 
          
         </h6>
