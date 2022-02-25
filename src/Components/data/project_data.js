@@ -9,10 +9,41 @@
 import resume from '../../assets/projects_images/resume.jpg'
 import indeplot from '../../assets/projects_images/indeplot.jpg'
 import responsive_ from '../../assets/projects_images/responsive_.jpg'
+import Kudaimg from '../../assets/projects_images/Kudaimg.png'
+import Devcareerimg from '../../assets/projects_images/Devcareerimg.png'
 
 
 
 const data_projects = [
+
+    {
+        name: 'An open-source project for making a react based plotter application for signal analysis using Reactjs ',
+        image: indeplot,
+        deployed_url: 'https://indeplot.netlify.app/',
+        github_url: 'https://github.com/femakin/indeplot ',
+        category: ['react.js']
+    },
+
+
+    {
+        name: 'Website built during a three months frontend internship together with other interns. ',
+        image: Devcareerimg,
+        deployed_url: 'https://devcareer.io/',
+        github_url: ' ',
+        category: ['react.js']
+    },
+
+
+    {
+        name: 'A clone of Kuda App using React and Reactnative ',
+        image: Kudaimg,
+        deployed_url: 'https://expo.dev/@jaymeeu/kuda_clone',
+        github_url: 'https://github.com/jaymeeu/kuda_clone',
+        category: ['react.js, reactnative']
+    },
+
+
+
     {
         name: 'My Personal Portfolio Built with Reactjs, React Router, CSS, and Bootstrap, ',
         image: resume,
@@ -33,13 +64,7 @@ category: ['react.js']
 
 
 
-    {
-        name: 'An open-source project for making a react based plotter application for signal analysis. I was assigned to build the Navbar and Footer Components using Reactjs ',
-        image: indeplot,
-        deployed_url: 'https://indeplot.netlify.app/',
-        github_url: 'https://github.com/femakin/indeplot ',
-        category: ['react.js']
-    },
+  
 
     // {
     //     name: 'Dev Talks',

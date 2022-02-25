@@ -1,5 +1,6 @@
 import React from 'react'
 import github from '../assets/icons/github.svg'
+import {AiFillGithub} from 'react-icons/ai'
 
 export default function ProjectCard({project:{name, image, deployed_url, github_url}}) {
   return (
@@ -10,7 +11,8 @@ export default function ProjectCard({project:{name, image, deployed_url, github_
             </a>
             <div className="projectCard_title">
             <a href={github_url} target="_blank" rel="noopener noreferrer">
-                <img src={github} alt="github link" className="projectCard_icon "/>
+                {/* <img src={github} alt="github link" className="projectCard_icon "/> */}
+                <AiFillGithub size={24} />
             </a>
             {name}
             </div>
