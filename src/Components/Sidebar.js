@@ -1,10 +1,5 @@
 import React from "react";
-import facebook from "../assets/icons/facebook.svg";
-import twitter from "../assets/icons/twitter.svg";
-import reSume from "../assets/icons/reSume.svg";
-import github from "../assets/icons/github.svg";
-import pin from "../assets/icons/pin.svg";
-import linkedin from "../assets/icons/linkedin.svg";
+
 import resume from "../assets/resume.pdf";
 import { motion } from "framer-motion";
 import {CgFileDocument} from 'react-icons/cg'
