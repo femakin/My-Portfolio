@@ -1,5 +1,5 @@
 import React from 'react'
-import github from '../assets/icons/github.svg'
+
 import {AiFillGithub} from 'react-icons/ai'
 
 export default function ProjectCard({project:{name, image, deployed_url, github_url}}) {
