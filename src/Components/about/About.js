@@ -42,11 +42,11 @@ export default function About() {
 services. Familiar with the development and deployment process for many web-based
 technologies. Yes. i AM. */}
 
-I am a frontend software engineer with the passion to build amazing products that proffer solutions to socio-economic problems faced by the world population, while keeping to high standards and best practices.
-
-As a professional frontend engineer, I advocate amazing user experiences, as well as aesthetically pleasing and responsive user interfaces. 
-
-My preferred stack is in core Javascript and ReactJs, I write clean and maintainable codes with a proper architecture using these technologies, and also stay up to date with recent modifications to them.
+I am a front-end software engineer with a passion for building unique products that proffer solutions to socio-economic problems faced by the world population while keeping to high standards and best practices.
+ As a professional front-end engineer, 
+ 
+I advocate fantastic user experiences and aesthetically pleasing and responsive user interfaces. My preferred stack is in core Javascript and ReactJs. I write clean and maintainable
+ codes with a proper architecture using these technologies and stay up to date with recent modifications.
 
          
         </h6>

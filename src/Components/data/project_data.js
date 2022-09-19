@@ -17,50 +17,50 @@ import Devcareerimg from '../../assets/projects_images/Devcareerimg.png'
 const data_projects = [
 
     {
-        name: 'An open-source project for making a react based plotter application for signal analysis using Reactjs ',
-        image: indeplot,
+        name: `Dillivry`,
+        image: 'https://res.cloudinary.com/femakin/image/upload/v1663582017/DillivryImage_thbx2l.png',
         deployed_url: 'https://indeplot.netlify.app/',
-        github_url: 'https://github.com/femakin/indeplot ',
+        github_url: 'https://github.com/femakin?tab=repositories',
         category: ['react.js']
     },
 
 
     {
-        name: 'Website built during a three months frontend internship together with other interns. ',
-        image: Devcareerimg,
+        name: 'Datamellon website',
+        image: 'https://res.cloudinary.com/femakin/image/upload/v1663582017/DatamellonImage_wo8aqx.png',
         deployed_url: 'https://devcareer.io/',
-        github_url: ' ',
+        github_url: 'https://github.com/femakin?tab=repositories',
         category: ['react.js']
     },
 
 
     {
-        name: 'A clone of Kuda App using React and Reactnative ',
-        image: Kudaimg,
+        name: 'Create Tribute',
+        image: 'https://res.cloudinary.com/femakin/image/upload/v1663582018/Tribute_dmaw2d.png',
         deployed_url: 'https://expo.dev/@jaymeeu/kuda_clone',
-        github_url: 'https://github.com/jaymeeu/kuda_clone',
+        github_url: 'https://github.com/femakin?tab=repositories',
         category: ['react.js, reactnative']
     },
 
 
 
-    {
-        name: 'My Personal Portfolio Built with Reactjs, React Router, CSS, and Bootstrap, ',
-        image: resume,
-        deployed_url: 'https://femiakinyemi.netlify.app/',
-        github_url: 'https://github.com/femakin/My-Portfolio/',
-        category: ['react.js']
-    },
+    // {
+    //     name: 'My Personal Portfolio Built with Reactjs, React Router, CSS, and Bootstrap, ',
+    //     image: resume,
+    //     deployed_url: 'https://femiakinyemi.netlify.app/',
+    //     github_url: 'https://github.com/femakin/My-Portfolio/',
+    //     category: ['react.js']
+    // },
 
-{
-name: "Eight responsive website project from devchallenges.io. All these projects were built using ReactJs and CSS. ",
-image: responsive_,
-deployed_url: 'https://eightwebsite.netlify.app/',
-github_url: 'https://github.com/femakin/Eight-Responsive-Project',
-category: ['react.js']
+// {
+// name: "Eight responsive website project from devchallenges.io. All these projects were built using ReactJs and CSS. ",
+// image: responsive_,
+// deployed_url: 'https://eightwebsite.netlify.app/',
+// github_url: 'https://github.com/femakin/Eight-Responsive-Project',
+// category: ['react.js']
 
 
-},
+// },
 
 
 

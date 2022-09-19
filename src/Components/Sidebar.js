@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "../assets/resume.pdf";
+import resume from "../assets/01_Akinyemi Oluwafemi C. V..pdf";
 import { motion } from "framer-motion";
 import {CgFileDocument} from 'react-icons/cg'
 import {FaFacebookSquare, FaTwitterSquare} from 'react-icons/fa'
@@ -37,7 +37,7 @@ export default function Sidebar() {
       animate="visible"
     >
       <img
-        src="https://res.cloudinary.com/femakin/image/upload/v1605095076/IMG-20201110-WA0147_mwlzbq.jpg"
+        src="https://avatars.githubusercontent.com/u/46872764?v=4"
         alt="avatar"
         className="sidebar_avatar"
       />
@@ -93,7 +93,7 @@ export default function Sidebar() {
           {" "}
           {/* <img src={pin} alt="location" className="sidebar_icon mr-2" /> */}
           <MdLocationOn size={24} />
-          Ibadan, Nigeria
+          Lagos, Nigeria
         </div>
         <div className="sidebar_item">akinfemi46@gmail.com</div>
         <div className="sidebar_item">07037495325</div>

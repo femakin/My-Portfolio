@@ -64,7 +64,7 @@ export default function Resume() {
             <ul className="resume-card_details">
               <li>
               Working in a team of 4 to build <href>dillivry.com</href> A logistics marketplace that connects senders to
-feedback-rated logistics providers who compete for your delivery request, and you pick the best.
+        feedback-rated logistics providers who compete for your delivery request, and you pick the best.
               </li>
               <li>
               Working across disciplines with team members on the front-end team.
