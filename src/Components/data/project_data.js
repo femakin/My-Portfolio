@@ -6,11 +6,11 @@
 // import color_classification from '../../assets/projects_images/color_classification.jpg'
 // import blinking from '../../assets/projects_images/blinking.JPG'
 // import Dev_talks from '../../assets/projects_images/Dev_talks.jpg'
-import resume from '../../assets/projects_images/resume.jpg'
-import indeplot from '../../assets/projects_images/indeplot.jpg'
-import responsive_ from '../../assets/projects_images/responsive_.jpg'
-import Kudaimg from '../../assets/projects_images/Kudaimg.png'
-import Devcareerimg from '../../assets/projects_images/Devcareerimg.png'
+// import resume from '../../assets/projects_images/resume.jpg'
+// import indeplot from '../../assets/projects_images/indeplot.jpg'
+// import responsive_ from '../../assets/projects_images/responsive_.jpg'
+// import Kudaimg from '../../assets/projects_images/Kudaimg.png'
+// import Devcareerimg from '../../assets/projects_images/Devcareerimg.png'
 
 
 
