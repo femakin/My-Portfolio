@@ -15,13 +15,12 @@
 
 
 const data_projects = [
-
     {
-        name: `Dillivry`,
-        image: 'https://res.cloudinary.com/femakin/image/upload/v1704192588/dillivry.png',
-        deployed_url: 'https://indeplot.netlify.app/',
-        github_url: 'https://github.com/femakin?tab=repositories',
-        category: ['react.js']
+        name: 'Create Tribute',
+        image: 'https://res.cloudinary.com/femakin/image/upload/v1704192815/Screenshot_2024-01-02_at_11.52.59_wpg06e.png',
+        deployed_url: 'https://expo.dev/@jaymeeu/kuda_clone',
+        github_url: 'https://github.com/femakin/CTB/tree/master/ctbproject',
+        category: ['react.js, reactnative']
     },
 
 
@@ -34,13 +33,7 @@ const data_projects = [
     },
 
 
-    {
-        name: 'Create Tribute',
-        image: 'https://res.cloudinary.com/femakin/image/upload/v1704192815/Screenshot_2024-01-02_at_11.52.59_wpg06e.png',
-        deployed_url: 'https://expo.dev/@jaymeeu/kuda_clone',
-        github_url: 'https://github.com/femakin?tab=repositories',
-        category: ['react.js, reactnative']
-    },
+
 
     {
         name: 'klaudworks',
@@ -51,11 +44,22 @@ const data_projects = [
     },
 
 
+
+    {
+        name: `Dillivry`,
+        image: 'https://res.cloudinary.com/femakin/image/upload/v1704192588/dillivry.png',
+        deployed_url: 'https://indeplot.netlify.app/',
+        github_url: 'https://github.com/femakin?tab=repositories',
+        category: ['react.js']
+    },
+
+
+
     {
         name: 'Brolaz',
         image: 'https://res.cloudinary.com/femakin/image/upload/v1704193407/Screenshot_2024-01-02_at_12.02.34_zvf87c.png',
         deployed_url: 'https://www.brolaz.org/',
-        github_url: 'https://github.com/femakin?tab=repositories',
+        github_url: 'https://github.com/femakin/Brolazng',
         category: ['react.js, TypeScript, JavaScript, TailwindCSS']
     },
 
